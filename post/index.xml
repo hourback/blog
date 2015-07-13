@@ -6,8 +6,18 @@
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Jul 2015 16:25:11 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2015 17:51:03 -0500</lastBuildDate>
     <atom:link href="http://www.alijnabavi.info/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>logging</title>
+      <link>http://www.alijnabavi.info/blog/post/logging/</link>
+      <pubDate>Mon, 13 Jul 2015 17:51:03 -0500</pubDate>
+      
+      <guid>http://www.alijnabavi.info/blog/post/logging/</guid>
+      <description>&lt;p&gt;This is about the logging project I&amp;rsquo;m working on.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>first</title>
