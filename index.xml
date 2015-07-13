@@ -2,30 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://replace-this-with-your-hugo-site.com/</link>
+    <link>http://www.alijnabavi.info/blog/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 13 Jul 2015 16:25:11 -0500</lastBuildDate>
-    <atom:link href="http://replace-this-with-your-hugo-site.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.alijnabavi.info/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>first</title>
-      <link>http://replace-this-with-your-hugo-site.com/post/first/</link>
+      <link>http://www.alijnabavi.info/blog/post/first/</link>
       <pubDate>Mon, 13 Jul 2015 16:25:11 -0500</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/post/first/</guid>
+      <guid>http://www.alijnabavi.info/blog/post/first/</guid>
       <description>&lt;p&gt;This is my first post!&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>about</title>
-      <link>http://replace-this-with-your-hugo-site.com/about/</link>
+      <link>http://www.alijnabavi.info/blog/about/</link>
       <pubDate>Mon, 13 Jul 2015 16:08:04 -0500</pubDate>
       
-      <guid>http://replace-this-with-your-hugo-site.com/about/</guid>
+      <guid>http://www.alijnabavi.info/blog/about/</guid>
       <description>&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Some stuff.&lt;/p&gt;
 </description>
     </item>
     
