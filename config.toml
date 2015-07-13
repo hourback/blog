@@ -1,6 +1,6 @@
 baseurl = "http://www.alijnabavi.info/blog/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "[AliJNabavi.info] My New Hugo Site"
 [params]
 	sidebartitle = "My Site"
 	sidebartagline = "Is super awesome"
