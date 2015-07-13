@@ -4,6 +4,18 @@ title = "My New Hugo Site"
 [params]
 	sidebartitle = "My Site"
 	sidebartagline = "Is super awesome"
+	description = "Ali Nabavi's blog"
+	twitter = "@alijnabavi"
+	github = "hourback"
+	gplus = "AliNabavi"
+	linkedin = "AliJNabavi"
 [taxonomies]
   tag = "tags"
   category = "categories"
+  
+[author]
+	name = "Ali Nabavi"
+	github = "hourback"
+	linkedin = "AliJNabavi"
+	twitter = "@alijnabavi"
+
