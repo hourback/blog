@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Me on My New Hugo Site</title>
+    <link>http://www.alijnabavi.info/blog/tags/me/</link>
+    <description>Recent content in Me on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jul 2015 16:08:04 -0500</lastBuildDate>
+    <atom:link href="http://www.alijnabavi.info/blog/tags/me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://www.alijnabavi.info/blog/about/</link>
+      <pubDate>Mon, 13 Jul 2015 16:08:04 -0500</pubDate>
+      
+      <guid>http://www.alijnabavi.info/blog/about/</guid>
+      <description>&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;Some stuff.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
