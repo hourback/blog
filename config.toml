@@ -12,7 +12,7 @@ title = "[AliJNabavi.info] My New Hugo Site"
 [taxonomies]
   tag = "tags"
   category = "categories"
-  
+  series = "series"
 [author]
 	name = "Ali Nabavi"
 	github = "hourback"
