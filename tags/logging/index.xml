@@ -15,9 +15,9 @@
       <pubDate>Mon, 13 Jul 2015 18:21:48 -0500</pubDate>
       
       <guid>http://www.alijnabavi.info/blog/post/HEK/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m working on getting all of these working together.&lt;/p&gt;
+      <description>&lt;p&gt;I&amp;rsquo;m working on getting all of these working together: &lt;a href=&#34;https://github.com/mozilla-services/heka/&#34;&gt;Heka&lt;/a&gt;, &lt;a href=&#34;https://www.elastic.co/products/elasticsearch&#34;&gt;Elasticsearch&lt;/a&gt;, and &lt;a href=&#34;https://www.elastic.co/products/kibana&#34;&gt;Kibana&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;I had to write a custom Lua decoder to parse the funny time stamps in our WebSphere logs.&lt;/p&gt;
+&lt;p&gt;I had to write a custom &lt;a href=&#34;http://www.lua.org/about.html&#34;&gt;Lua&lt;/a&gt; decoder to parse the funny time stamps in our WebSphere logs.&lt;/p&gt;
 
 &lt;p&gt;At one point, the time stamp from WebSphere was being copied to another field, converted to nanoseconds, and sent to Elasticsearch as some kind of integer. I was getting errors from Kibana and Elasticsearch about running out of heap space, but googling this led to no conclusive answer. Only by determining that the Heka payload I was sending to Elasticsearch is what was causing the crash did I start narrowing it down to a particular Heka message field.&lt;/p&gt;
 </description>

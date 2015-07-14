@@ -3,8 +3,8 @@
 
   
   <meta charset="utf-8">
-  <title>Heka &#43; Elasticsearch &#43; Kibana = HEK</title>
-  <meta name="description" content="Heka &#43; Elasticsearch &#43; Kibana = HEK">
+  <title>Log Aggregation</title>
+  <meta name="description" content="Log Aggregation">
   <meta name="author" content="Ali Nabavi">
 
   
@@ -78,42 +78,43 @@
 </div>
 
 
+
 <div class="pure-g">
     <div class="pure-u-1-24 pure-u-md-5-24"></div>
 	<div class="pure-u-11-12 pure-u-md-5-8">
-        <div class="post">
+	  <p class="posts-name">Log Aggregation:</p>
 
-            <div class="post-title">
-                <p class="footnote">
-                    <time class="">2015-07-13</time>
-		            
-                    
-                    |
-                    
-                    
-                    tags:<a href="http://www.alijnabavi.info/blog/tags/elasticsearch">elasticsearch</a> <a href="http://www.alijnabavi.info/blog/tags/heka">heka</a> <a href="http://www.alijnabavi.info/blog/tags/kibana">kibana</a> <a href="http://www.alijnabavi.info/blog/tags/logging">logging</a> 
-                    
+	  <ul class="posts">
+		
+		
+		
+		<li>
+		  <a href="http://www.alijnabavi.info/blog/post/HEK/">Heka &#43; Elasticsearch &#43; Kibana = HEK</a>
 
-                    
-                    categories:<a href="http://www.alijnabavi.info/blog/categories/work-projects">Work Projects</a> 
-                    
+		  <p class="footnote">
+			submitted <time datetime="2015-07-13T18:21:48-05:00" class="post-list timeago">2015-07-13T18:21:48-05:00</time>
 
-                    
-                    series:<a href="http://www.alijnabavi.info/blog/series/log-aggregation">Log Aggregation</a> 
-                    
-                </p>
-                <h1>Heka &#43; Elasticsearch &#43; Kibana = HEK</h1>
-            </div>
+			
+			to
+			
 
-            <div class="post-content">
-                <p>I&rsquo;m working on getting all of these working together: <a href="https://github.com/mozilla-services/heka/">Heka</a>, <a href="https://www.elastic.co/products/elasticsearch">Elasticsearch</a>, and <a href="https://www.elastic.co/products/kibana">Kibana</a>.</p>
+			
+			tags:[ <a href="http://www.alijnabavi.info/blog/tags/elasticsearch">elasticsearch</a> <a href="http://www.alijnabavi.info/blog/tags/heka">heka</a> <a href="http://www.alijnabavi.info/blog/tags/kibana">kibana</a> <a href="http://www.alijnabavi.info/blog/tags/logging">logging</a> ]
+			
 
-<p>I had to write a custom <a href="http://www.lua.org/about.html">Lua</a> decoder to parse the funny time stamps in our WebSphere logs.</p>
+			
+			categories:[ <a href="http://www.alijnabavi.info/blog/categories/work-projects">Work Projects</a> ]
+			
 
-<p>At one point, the time stamp from WebSphere was being copied to another field, converted to nanoseconds, and sent to Elasticsearch as some kind of integer. I was getting errors from Kibana and Elasticsearch about running out of heap space, but googling this led to no conclusive answer. Only by determining that the Heka payload I was sending to Elasticsearch is what was causing the crash did I start narrowing it down to a particular Heka message field.</p>
+			
+			series:[ <a href="http://www.alijnabavi.info/blog/series/log-aggregation">Log Aggregation</a> ]
+			
 
-            </div>
-        </div>
+		  </p>
+		</li>
+		
+		
+	  </ul>
 	</div>
     <div class="pure-u-1-24 pure-u-md-1-6"></div>
 </div>
